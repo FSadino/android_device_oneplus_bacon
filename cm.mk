@@ -22,7 +22,7 @@ $(call inherit-product, device/oneplus/bacon/bacon.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Custom unofficial build tag
-TARGET_UNOFFICIAL_BUILD_ID := temasek
+TARGET_UNOFFICIAL_BUILD_ID := FSadino
 
 PRODUCT_NAME := cm_bacon
 PRODUCT_DEVICE := bacon
