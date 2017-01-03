@@ -24,6 +24,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Custom unofficial build tag
 TARGET_UNOFFICIAL_BUILD_ID := FSadino
 
+PRODUCT_NAME := lineage_bacon
 PRODUCT_DEVICE := bacon
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := A0001
