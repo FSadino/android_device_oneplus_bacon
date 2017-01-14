@@ -17,15 +17,15 @@
 
 
 # SDClang
-ifneq ($(HOST_OS),darwin)
+##ifneq ($(HOST_OS),darwin)
 
-SDCLANG := true
+#SDCLANG := true
 
-SDCLANG_PATH := prebuilts/clang/linux-x86/host/sdclang-3.8/bin/bin
+#SDCLANG_PATH := prebuilts/clang/linux-x86/host/sdclang-3.8/bin/bin
 
-SDCLANG_LTO_DEFS := device/qcom/common/sdllvm-lto-defs.mk
+#SDCLANG_LTO_DEFS := device/qcom/common/sdllvm-lto-defs.mk
 
-endif
+#endif
 
 # inherit from Oppo common
 -include device/oppo/common/BoardConfigCommon.mk
