@@ -66,9 +66,9 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Camera
 PRODUCT_PACKAGES += \
-    CameraNextModv7
-    #camera.bacon \
-    #libshim_camera \
+    CameraNextModv7 \
+    camera.bacon \
+    libshim_camera 
     #Snap
 
 # Charger
