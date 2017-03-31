@@ -119,6 +119,10 @@ PRODUCT_COPY_FILES += \
 # IPC router config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:system/etc/sec_config
+    
+# Substratum Interfacer
+PRODUCT_PACKAGES += \
+    ThemeInterfacer
 
 # Keystore
 PRODUCT_PACKAGES += \
